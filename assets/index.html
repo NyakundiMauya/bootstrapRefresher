@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-primary-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">MY WEBSITE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Python</a></li>
+            <li><a class="dropdown-item" href="#">Data Science</a></li>
+<!--            <li><hr class="dropdown-divider"></li>-->
+            <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+          </ul>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link disabled" aria-disabled="true">Link</a>-->
+<!--        </li>-->
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid p-5 bg-danger text-white text-center">
+    <!-- Content goes here -->
+    <h1>Welcome to Bootstrap class</h1>
+</div>
+<!--start of slider-->
+<div id="carouselId" class="container carousel slide mt-2 py-3" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/contentpage_209_84_3.jpg" class="d-block w-100" alt="coding" height="400">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/gettyimages-669775712-612x612.jpg" class="d-block w-100" alt="coding" height="400">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/istockphoto-178456596-612x612.jpg" class="d-block w-100" alt="coding" height="400">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--end of slider-->
+
+
+<div class="container-fluid mt-3 p-3">
+    <div class="row">
+        <!-- Four identical containers with col-4 for equal width -->
+        <div class="col-4 p-3 mt-3 bg-primary text-white">
+            <h2>Column One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at beatae ducimus excepturi facilis nam nobis porro quibusdam. Aperiam, aut deserunt eaque expedita itaque labore magnam molestias perspiciatis repellat voluptatum!</p>
+        </div>
+        <div class="col-4 p-3 mt-3 bg-success text-white">
+            <h2>Column Two</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at beatae ducimus excepturi facilis nam nobis porro quibusdam. Aperiam, aut deserunt eaque expedita itaque labore magnam molestias perspiciatis repellat voluptatum!</p>
+        </div>
+        <div class="col-4 p-3 mt-3 bg-secondary text-white">
+            <h2>Column Three</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at beatae ducimus excepturi facilis nam nobis porro quibusdam. Aperiam, aut deserunt eaque expedita itaque labore magnam molestias perspiciatis repellat voluptatum!</p>
+        </div>
+    </div>
+</div>
+<!--card starts here-->
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="images/istockphoto-178456596-612x612.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Tariffs</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-success">Explore</a>
+  </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
